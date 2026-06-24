@@ -7,7 +7,7 @@ Completed work for 2025 [DataTalksClub Data Engineering Zoomcamp](https://github
 - `03-data-warehouse` - BigQuery, ingestion orchestrated with Airflow
 - `04-analytics-engineering` - dbt
 - `05-batch` - PySpark
-- `06-streaming` - kafka, PyFlink
+- `06-streaming` - Kafka, PyFlink
 
 ### Certificate
 [Certificate](./docs/certificate.pdf)
