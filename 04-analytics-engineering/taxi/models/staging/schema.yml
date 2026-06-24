@@ -1,0 +1,10 @@
+version: 1
+
+sources:
+  - name: staging
+    database: production
+    schema: tripsdata
+    tables:
+      - name: green
+      - name: yellow
+      - name: fhv

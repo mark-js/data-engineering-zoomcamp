@@ -1,0 +1,4 @@
+apache-airflow-providers-fab
+apache-airflow-providers-google
+asyncpg
+psycopg2-binary

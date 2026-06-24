@@ -1,0 +1,12 @@
+services:
+  terraform:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ../..:/workspaces/
+      - ${HOST_KEYS_PATH}:/.keys/key.json:ro
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
